@@ -22,27 +22,24 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
  
  
- 
- 
-<!--fontawesome-->
- 
-<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
- 
-<!--This is used for search icon. Instead putting icon manually it is loaded from fontawesome-->
- 
- 
- 
+
  
 <title>Responsive nav bar with Bootstrap 4</title>
  
 </head>
  
 <body>
+    <div class="row" style="padding-top: 80px;">
+    <div class="container border" style="max-width: 80vh;">
+    <div class="card-shadow">
+        <header class="bg-dark">
+            <img id="logo" class="rounded-circle" src="assets.jpg" alt="logo" height="50px" width="50px" style="margin-top: 20px; margin-left: 20px; position:fixed; opacity: 0.5;">
+            <h1 class="display-3 text-center my-4 text-light lead ">Gift Card</h1>
+      </header>
+  
+
  
-<!-- navbar -->
- 
-<nav class="navbar navbar-expand-md navbar-light bg-dark fixed-top">
- 
+<nav class="navbar navbar-expand-md navbar-light bg-dark">
  
 <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav">
  
@@ -56,26 +53,28 @@
  
 <li class="nav-item" >
  
-<a class="nav-link text-light font-weight-bold px-3" href="#">HOME</a>
+<a class="nav-link text-light font-weight-bold px-3" href="#">Home
+
+</a>
  
 </li>
  
 <li class="nav-item dropdown" data-toggle="dropdown">
  
-<a class="nav-link text-light font-weight-bold px-3 dropdown-toggle" href="#">CATEGORIES</a>
+<a class="nav-link text-light font-weight-bold px-3 " href="#">Place Gift Card Order</a>
  
  
 </li>
  
 <li class="nav-item">
  
-<a class="nav-link text-light font-weight-bold px-3" href="#">ABOUT US</a>
+<a class="nav-link text-light font-weight-bold px-3" href="#">View Gift Card Order</a>
  
 </li>
  
 <li class="nav-item">
  
-<a class="nav-link text-light font-weight-bold px-3" href="#">CONTACT</a>
+<a class="nav-link text-light font-weight-bold px-3" href="#">Contact</a>
  
 </li>
  
@@ -85,6 +84,18 @@
 </div>
  
 </nav>
+
+<div class="row no-gutters" style="min-height: auto;">
+    <div class="list-group list-group-flush text-center px-0 border col-3 btn-group btn-lg">
+        <a class="list-group-item list-group-item-action btn-group-item">Home</a>
+        <a class="list-group-item list-group-item-action btn-group-item">Place Order</a>
+        <a class="list-group-item list-group-item-action btn-group-item">View Orders</a>
+        <a class="list-group-item list-group-item-action btn-group-item">Contacts</a>
+    </div>
+    <div>
+
+
+</div></div></div></div>
  
 </body>
  
